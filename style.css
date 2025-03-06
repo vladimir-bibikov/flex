@@ -1,0 +1,59 @@
+.flex {
+    height: 500px;
+    display: flex;
+    gap: 10px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    overflow: auto;
+}
+
+.flex div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+  
+}
+
+.blue {
+    background-color: blue;
+}
+
+/* .flex {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+
+.flex div {
+    padding: 10px;
+    margin: 5px;
+}
+
+.yellow {
+    background-color: yellow;
+    flex: 1 1 auto;
+}
+
+.pink {
+    background-color: pink;
+    flex: 2 2 auto;
+}
+
+.gray {
+    background-color: gray;
+    flex: 3 3 auto;
+} */
